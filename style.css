@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Paradiso", "robot";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,8 +10,8 @@ body {
 
 /* Navigation Styles */
 nav {
-    background: #35424a;
-    color: #ffffff;
+    background: goldenrod;
+    color: rgb(134, 134, 248);
     padding: 10px 0;
 }
 
