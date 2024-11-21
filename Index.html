@@ -3,13 +3,13 @@
 <head>
 <style>
   table {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Paradiso', serif;
   border-collapse: collapse;
   width: 42%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 0px solid #dddddd;
   text-align: justify;
   padding: 8px;
 }
@@ -18,10 +18,25 @@ td, th {
 </style>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 align = "center">  Biodata Diri </h1>
+  <nav>
+    <div class="wrapper">
+        <div class="logo"><a href=''>Rizky Patriawan</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#Biodata Diri">Biodata</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> 
+<h1 id="home" align="center">Biodata Diri</h1>
     <hr width = 800 px>
       <table align = "center" cellpadding = "15 px" width = "700 px">
 
@@ -30,7 +45,8 @@ td, th {
           </p>
 
        
-        
+          
+       
         <tr>
           <td><p><strong>Nama :</strong></p></td>
           <td>Rizky Patriawan</td>
@@ -50,9 +66,10 @@ td, th {
           <td><p><strong>Alamat :</strong></p></td>
           <td>Desa Negararatu, kecamatan Natar, Lampung Selatan</td>
         </tr>
-
+        
+        
         <tr>
-          <td><p><strong>Riwayat Pendidikan :</strong></p></td>
+          <td id="education"><p><strong>Riwayat Pendidikan</strong></p></td>
           <td>
             <ul>
               <li>SD Islam Ibnurusyd Kotabumi (2011-2017)</li>
@@ -62,8 +79,10 @@ td, th {
             </ul>  
           </td>
 
+          
           <tr>
-            <td><p><strong>Pengalaman :</strong></p></td>
+            <td id="experience"><p><strong>Pengalaman</strong></p></td>
+            
             <td>
               <ul>
                 <li>Sekretaris umum ekskul Rohani Islam SMAN 1 Natar (2021-2022)</li>
@@ -81,9 +100,11 @@ td, th {
               </ul>  
             </td>
           </tr>
-
+ 
+          
           <tr>
-            <td><p><strong>Contact Person :</strong></p></td>
+            <td id="contact"><p><strong>Kontak</strong></p></td>
+            
             <td>
               <ul>
                 <li><a href="mailto: rizpatkanjut@gmail.com" target="_blank">Email</a></li>
@@ -101,7 +122,7 @@ td, th {
         
           <tr>
             <td colspan = "2",rowspan = "2">
-              <h3 align = "center">About Me</h3>
+              <h3 align = "center" id="about">About Me</h3>
               <style>
                 h4{
                   font-weight: normal;
